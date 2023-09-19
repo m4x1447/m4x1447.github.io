@@ -1,0 +1,29 @@
+h1 {
+    color: purple;
+}
+
+img {
+    width: 300px;
+}
+
+.subjectContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.subjectBox {
+    border: 2px solid purple;
+}
+
+#middlebox {
+    border: 2px solid cyan;
+}
+
+.button {
+    background-color: aqua;
+    width: 65px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+}
