@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css"> 
-    <script src="script.js"></script>
-    <title>Min protefølje</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png"> <!--Favicon, logo på nettsiden-->
+    <!--FontAwsome, icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Heime Side</title>
 </head>
+
 <body>
-    <style>
-        body {
-            background-image: url(images/wp6351088.webp);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }   
-    </style>
+    <h1>Velkommen til nettsiden min.</h1>
 
-    <h1>Min protefølje</h1>
-
-    </div>
-    <div class="navigation">
-        <a href="index.html" class="navlink">
-            Home
+    <div class="menu">
+        <!--Få til Fontawsome.com of click på Free Icons, så copiere du koden du fikk-->
+        <a href="index.html" class="navlink active"><i class="fas fa-home"></i> Heim </a>
+        <a href="https://github.com/m4x1447" target="_blank" class="navlink "><i class="fa-brands fa-github"></i> Github
         </a>
-        <a href="example.html" class="navlink">
-            Example
-        </a>
-    </div>
+        <a href="globe.html" class="navlink"><i class="fa-regular fa-address-book"></i> Kontakt </a>
+        <a href="admin.html" class="navlink "><i class="fa-solid fa-user"></i> Om Meg </a>
 
-    <div class="subjectContainer">
-        <div class="subjectBox">
-            <img src="images/wp6351088.webp">
-            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Teknologiforståelse</p>
-        </div>
-        <div class="subjectBox" id="middlebox">
-            <img src="images/wp6351088.webp">
-            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Konseputvikling og programmering</p>
-        </div>
-        <div class="subjectBox">
-            <img src="images/wp6351088.webp">
-            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Produksjon oh historieforteljing</p>
+        <!--<a href="" class="dropdownbar"><i class="fa-solid fa-bars"></i></a> -->
+        <div class="dropdown">
+            <a href="" class="dropdownbar"><i class="fa-solid fa-bars"></i></a>
+            <div class="dropdownContent">
+                <a href="https://discord.gg/HfsEERW9TY" target="_blank"><i class="fa-brands fa-discord"></i> IT & MP
+                    Discord server</a>
+            </div>
         </div>
     </div>
 
-    <a href="Menu.html" target="_blank">
-        <div class="button">
-        Klikk Her
-        </div> 
-    </a>
+
+
+    <h1>Min portefølje</h1>
+
+    <!--Bilde og Sider-->
+    <div class="mainContent">
+        <div class="subjectContainer">
+            <a href="IKT/teknologi.html">
+                <div class="subjectBox">
+                    <img src="images/tekforstaelse.png">
+                    <p>Teknologiforståing</p>
+                </div>
+            </a>
+            <a href="IKT/koding.html">
+                <div class="subjectBox">
+                    <img src="images/koding.png">
+                    <p>Konseptutvikling og programmering</p>
+                </div>
+            </a>
+            <a href="IKT/produksjon.html">
+                <div class="subjectBox">
+                    <img src="images/production.png">
+                    <p>Produksjon og historieforteljing</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="main">
+
+    </div>
+
+    <footer>
+        <p class="bottomText">Author: Maximllian Opsanger</p>
+        <p class="bottomText"><a href="mailto:e-maxops@iskule.no">e-maxops@iskule.no</a></p>
+    </footer>
 </body>
+
 </html>
