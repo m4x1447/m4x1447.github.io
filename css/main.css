@@ -1,5 +1,5 @@
 h1 {
-    color: purple;
+    
 }
 
 img {
@@ -17,7 +17,7 @@ img {
 
 #middlebox {
     border: 2px solid cyan;
-}
+}z
 
 .button {
     background-color: aqua;
@@ -26,4 +26,29 @@ img {
     border: 2px solid black;
     border-radius: 12px;
     text-align: center;
+}
+
+.title {
+    background-color: blue;
+}
+
+.header {
+    background-color: rgb(39, 39, 38);
+}
+
+.navigation {
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navlink:hover{
+    color: #333;
 }
